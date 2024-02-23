@@ -1,27 +1,21 @@
-# AngularCrash
+# Task Tracker App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Questa è un'applicazione single-page realizzata in Angular che implementa un task tracker. L'applicazione è stata sviluppata come parte di un esercizio pratico per il corso di Angular.
 
-## Development server
+## Funzionalità
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Visualizzazione dei task**: All'apertura dell'applicazione, i task vengono visualizzati immediatamente. Questi task sono generati utilizzando un database fittizio.
+- **Aggiunta di task**: È presente un pulsante che permette di aprire e chiudere un modulo per l'aggiunta di nuovi task.
+- **Eliminazione di task**: Ogni task ha accanto una 'x' che permette di cancellare il task.
+- **Navigazione**: È presente un piccolo footer che reindirizza alla componente 'About'. Dalla componente 'About' è possibile tornare indietro.
 
-## Code scaffolding
+## Come farlo funzionare localmente
+Questo progetto è stato generato con Angular CLI versione 17.1.2.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esegui `ng serve` per un server di sviluppo. Naviga a `http://localhost:4200/`. L'applicazione si ricaricherà automaticamente se modifichi uno dei file sorgente.
 
-## Build
+Per far partire il database, digitare nel terminale `npm run server`. Questo avvierà il server del database fittizio e permetterà di accedere ai task.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+L'applicazione non è stata deployata.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
